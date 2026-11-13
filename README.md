@@ -1,1 +1,1 @@
-https://github.com/svetaagajanyan-ai/le-pain.git
+git@github.com:svetaagajanyan-ai/le-pain.git
