@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LE PAIN — пекарня на живой закваске</title>
+  <link rel="stylesheet" href="css.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="#top">L<span class="logo-e">E</span>&nbsp;PAIN</a>
+      <nav class="menu">
+        <a href="#about">О нас</a>
+        <a href="#bread">Наш хлеб</a>
+        <a href="#atmo">Атмосфера</a>
+        <a href="#where">Где мы</a>
+      </nav>
+      <a class="btn" href="#where">Сделать заказ ↗</a>
+      <button class="burger" id="burger" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="mobile-overlay" id="overlay">
+    <button class="close-btn" id="closeMenu" aria-label="Закрыть меню">×</button>
+    <a href="#about">О нас</a>
+    <a href="#bread">Наш хлеб</a>
+    <a href="#menu">Меню</a>
+    <a href="#atmo">Атмосфера</a>
+    <a href="#where">Где мы</a>
+    <a href="#where" class="accent-link">Сделать заказ ↗</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="bg">
+      <img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/5F41804D3-1825-4258-97E6-CDD82684B28E4261.png" alt="Хлеб на закваске">
+    </div>
+    <div class="wrap hero-inner">
+      <span class="kicker">Настоящий хлеб, без спешки.</span>
+      <h1>Испечено медленно.<br>Вкусно до глубины.</h1>
+      <p>Авторский хлеб на закваске с 12-часовой ферментацией</p>
+      <div class="hero-actions">
+        <a class="btn solid" href="#menu">Смотреть меню</a>
+        <a class="btn" href="#where">Сделать заказ</a>
+      </div>
+      <div class="hero-foot">
+        <span>На живой закваске &nbsp;/&nbsp; каждое утро из печи</span>
+        <span class="scroll-hint">Листайте не спеша <i>↓</i></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-img reveal">
+        <img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/4F41804D3-1825-4258-97E6-CDD82684B28E3076.png" alt="Утро в пекарне">
+      </div>
+      <div class="about-body reveal">
+        <span class="kicker">01 / Наша история</span>
+        <h2>О нас</h2>
+        <span class="accent">Мука, вода, соль. И немного терпения.</span>
+        <p>Мы верим, что настоящий хлеб требует времени. Каждая буханка проходит 12-часовую ферментацию на живой закваске. Никаких ускорителей, только мука, вода и терпение.</p>
+        <p>Простые ингредиенты. Настоящий вкус.</p>
+        <span class="closing">Сделано руками. Разделено с любовью.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE BREAD -->
+  <section class="signature" id="bread">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <div>
+          <span class="kicker">02 / Из нашей печи</span>
+          <h2>Наш фирменный хлеб</h2>
+        </div>
+        <span class="side-note">Маленькие партии. Большая любовь к делу.</span>
+      </div>
+      <div class="loaves">
+        <article class="loaf reveal">
+          <div class="img"><img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/3F41804D3-1825-4258-97E6-CDD82684B28E3416.png" alt="Классическая на закваске"></div>
+          <h3>Классическая на закваске</h3>
+          <p>Хрустящая корка и воздушный мякиш.</p>
+          <div class="price">450₽</div>
+        </article>
+        <article class="loaf reveal">
+          <div class="img"><img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/3F41804D3-1825-4258-97E6-CDD82684B28E7509.png" alt="Фокачча с оливками"></div>
+          <h3>Фокачча с оливками</h3>
+          <p>Оливковое масло, розмарин, морская соль.</p>
+          <div class="price">380₽</div>
+        </article>
+        <article class="loaf reveal">
+          <div class="img"><img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/3F41804D3-1825-4258-97E6-CDD82684B28E1907.png" alt="Ржаной с семечками"></div>
+          <h3>Ржаной с семечками</h3>
+          <p>Насыщенный вкус ржи, семена льна и подсолнуха.</p>
+          <div class="price">420₽</div>
+        </article>
+        <article class="loaf reveal">
+          <div class="img"><img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/4F41804D3-1825-4258-97E6-CDD82684B28E1380.png" alt="Бриошь"></div>
+          <h3>Бриошь</h3>
+          <p>Сливочная, золотистая, нежная.</p>
+          <div class="price">350₽</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="today" id="menu">
+    <div class="wrap">
+      <div class="reveal">
+        <span class="kicker">03 / Свежее каждый день</span>
+        <h2 style="margin-top:14px">Меню на сегодня</h2>
+        <p class="sub">Из печи — к вашему столу. С чашкой любимого кофе.</p>
+      </div>
+      <div class="cols">
+        <div class="col reveal">
+          <h3>Хлеб</h3>
+          <span class="accent">На живой закваске, без спешки.</span>
+          <div class="item"><div><b>Классический на закваске</b><small>12 часов ферментации, хрустящая корка</small></div><span class="pr">450₽</span></div>
+          <div class="item"><div><b>Фокачча с оливками</b><small>Оливки, розмарин, оливковое масло</small></div><span class="pr">380₽</span></div>
+          <div class="item"><div><b>Ржаной с семечками</b><small>Ржаная мука, семена льна и подсолнуха</small></div><span class="pr">420₽</span></div>
+          <div class="item"><div><b>Бриошь</b><small>Сливочное масло, нежный мякиш</small></div><span class="pr">350₽</span></div>
+        </div>
+        <div class="col reveal">
+          <h3>Выпечка</h3>
+          <span class="accent">Маленькая радость каждого утра.</span>
+          <div class="item"><div><b>Круассан</b><small>Слоёное тесто на сливочном масле</small></div><span class="pr">250₽</span></div>
+          <div class="item"><div><b>Пен-о-шокола</b><small>Тонкие слои теста и тёмный шоколад</small></div><span class="pr">280₽</span></div>
+          <div class="item"><div><b>Булочка с корицей</b><small>Корица, тростниковый сахар, цедра</small></div><span class="pr">260₽</span></div>
+          <div class="item"><div><b>Сезонная галета</b><small>Спелые фрукты, хрустящее тесто</small></div><span class="pr">320₽</span></div>
+        </div>
+        <div class="col reveal">
+          <h3>Кофе</h3>
+          <span class="accent">Несколько чаш в полной тишине.</span>
+          <div class="item"><div><b>Эспрессо</b><small>Насыщенный вкус, мягкое послевкусие</small></div><span class="pr">180₽</span></div>
+          <div class="item"><div><b>Флэт уайт</b><small>Двойной эспрессо и нежное молоко</small></div><span class="pr">260₽</span></div>
+          <div class="item"><div><b>Капучино</b><small>Наш эспрессо под молочной пенкой</small></div><span class="pr">250₽</span></div>
+          <div class="item"><div><b>Фильтр-кофе</b><small>Свежая заварка, сезонное зерно</small></div><span class="pr">220₽</span></div>
+        </div>
+      </div>
+      <div class="today-foot reveal">
+        <span>Меню меняется вместе с сезоном. Спросите, что только что из печи.</span>
+        <span>Пожалуйста, сообщите нам об аллергии.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATMOSPHERE -->
+  <section class="atmo" id="atmo">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <div>
+          <span class="kicker">04 / Место для тёплых встреч</span>
+          <h2>Атмосфера</h2>
+        </div>
+        <span class="side-note">Здесь утро пахнет хлебом.</span>
+      </div>
+      <div class="atmo-grid reveal">
+        <figure class="a1"><img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/7F41804D3-1825-4258-97E6-CDD82684B28E5039.png" alt="Прилавок пекарни"></figure>
+        <figure class="a2"><img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/7F41804D3-1825-4258-97E6-CDD82684B28E1393.png" alt="Лён"></figure>
+        <figure class="a3"><img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/6F41804D3-1825-4258-97E6-CDD82684B28E1034.png" alt="Кофе"></figure>
+        <figure class="a4"><img src="https://image.qwenlm.ai/public_source/31e1018b-341f-4769-b03a-bacca1a45ebf/5F41804D3-1825-4258-97E6-CDD82684B28E3251.png" alt="Круассаны"></figure>
+      </div>
+      <div class="atmo-foot reveal">
+        <span>Тёплый стол. Знакомые лица. Ваше любимое — ещё из печи.</span>
+        <a href="#where">Останьтесь на чашку ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION & ORDER -->
+  <section class="location" id="where">
+    <div class="wrap">
+      <div class="reveal">
+        <span class="kicker">05 / Ждём вас в гости</span>
+        <h2 style="margin-top:14px">Как нас найти</h2>
+        <p class="sub">Заходите за хлебом. Оставайтесь за теплом.</p>
+      </div>
+      <div class="loc-grid">
+        <div class="reveal">
+          <div class="loc-label">Наша пекарня</div>
+          <div class="loc-addr">ул. Алых роз, 12</div>
+          <div class="loc-hours">Ежедневно с 8:00 до 20:00</div>
+          <div class="map">
+            <div class="map-blocks" id="mapBlocks">
+              <div></div><div></div><div class="wide"></div><div></div><div></div>
+            </div>
+            <span class="street-label">ул. Алых роз</span>
+            <div class="pin"></div>
+            <div class="pin-tip"><b>LE PAIN</b>ул. Алых роз, 12</div>
+            <div class="zoom">
+              <button id="zin" aria-label="Приблизить">+</button>
+              <button id="zout" aria-label="Отдалить">−</button>
+            </div>
+          </div>
+          <div class="map-caption">Схема расположения пекарни</div>
+        </div>
+
+        <div class="order-card reveal">
+          <h3>Предзаказ</h3>
+          <p class="oc-sub">Ваш любимый хлеб будет ждать вас.</p>
+          <form id="orderForm">
+            <div class="f-row">
+              <div class="field"><label>Ваше имя</label><input type="text" placeholder="Как к вам обращаться" required></div>
+              <div class="field"><label>Телефон</label><input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required></div>
+            </div>
+            <div class="field"><label>Ваш заказ</label><input type="text" placeholder="Например: 1 классический на закваске" required></div>
+            <div class="f-row">
+              <div class="field"><label>Дата получения</label><input type="date" required></div>
+              <div class="field"><label>Время получения</label><input type="text" value="С 8:00 до 20:00" readonly></div>
+            </div>
+            <button class="btn dark" type="submit">Отправить предзаказ ↗</button>
+            <p class="consent">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+            <div class="form-ok" id="formOk">Спасибо! Ваш предзаказ принят — хлеб будет ждать вас к указанному времени. 🥖</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <div class="foot-logo">LE PAIN</div>
+          <p class="foot-tag">Хлеб, у которого есть время.</p>
+          <a class="insta" href="#">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            Наши тёплые моменты ↗
+          </a>
+        </div>
+        <div class="foot-news">
+          <h3>Свежие новости прямо из печи</h3>
+          <p>Сезонное меню и маленькие радости пекарни — в вашей почте.</p>
+          <form class="news-form" id="newsForm">
+            <input type="email" placeholder="Ваша электронная почта" required>
+            <button type="submit">Подписаться ↗</button>
+          </form>
+          <p class="news-note" id="newsNote">Только самое свежее. Никакого спама.</p>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 «LE PAIN»</span>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
